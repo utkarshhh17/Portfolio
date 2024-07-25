@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import tummytales from "../../Assets/Projects/tummytales.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import groupflow from "../../Assets/Projects/groupflow.png";
+import trackify from "../../Assets/Projects/trackify.png";
+import shareyourplate from "../../Assets/Projects/shareyourplate.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import busmanagement from "../../Assets/Projects/busmanagement.png";
+import nutrivista from "../../Assets/Projects/nutrivista.png";
 
 function Projects() {
   return (
@@ -23,7 +25,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={nutrivista}
               isBlog={false}
               title="NutriVista"
               description="NutriVista is a food information web app built with ReactJS, Spring Boot, and AWS. It uses Selenium for data scraping and MongoDB for storage, enhancing user engagement by 20% in three months."
@@ -45,7 +47,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={trackify}
               isBlog={false}
               title="Trackify"
               description="Trackify is a price tracker tool created with Python, Spring Boot, and ReactJS. It provides real-time price updates, improving data fetching by 30% and increasing user adoption by 20%."
@@ -56,7 +58,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={groupflow}
               isBlog={false}
               title="GroupFlow"
               description="GroupFlow is a real-time chat application built with ReactJS, Spring Boot, and AWS. It uses Spring Boot WebSocket and ensures 99.9% uptime, increasing active user sessions by 30%"
@@ -67,7 +69,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={tummytales}
               isBlog={false}
               title="TummyTales"
               description="TummyTales is a recipe web app using ReactJS, Tailwind, and NodeJS. It features API integration, user authentication, and MongoDB for storage, enhancing performance with cache memory."
@@ -78,7 +80,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={shareyourplate}
               isBlog={false}
               title="ShareYourPlate"
               description="ShareYourPlate is a food donation web app built with HTML, CSS, React, and AppWrite. It includes user registration and donation tracking."
@@ -98,7 +100,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={busmanagement}
               isBlog={false}
               title="Bus Management System"
               description="A bus management web app developed with HTML, CSS, JavaScript, and Flask, implementing booking, scheduling, and employee management."
